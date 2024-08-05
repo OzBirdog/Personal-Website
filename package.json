@@ -2,7 +2,7 @@
   "name": "personal-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://OzBirdog.github.io/personal-website",
+  "homepage": "https://ozbirdog.github.io/Personal-Website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
