@@ -11,7 +11,6 @@ import { Resume } from './components/pages/Resume'
 function App() {
   return (
     <HashRouter>
-      <div>
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-      </div>
     </HashRouter>
   )
 }
