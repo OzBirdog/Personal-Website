@@ -13,9 +13,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          # Ensure the repository is checked out to the correct directory
-          path: Personal-Website
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -24,17 +21,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./Personal-Website
 
       - name: Build project
         run: npm run build
-        working-directory: ./Personal-Website/node_modules
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./Personal-Website/build # Adjusted to use the 'build' directory
+          path: ./build # Using the 'build' directory
 
   deploy:
     name: Deploy
@@ -45,18 +40,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          # Ensure the repository is checked out to the correct directory
-          path: Personal-Website
 
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: ./Personal-Website/build # Adjusted to use the 'build' directory
+          path: ./build # Using the 'build' directory
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Personal-Website/build # Adjusted to use the 'build' directory
+          publish_dir: ./build # Using the 'build' directory
