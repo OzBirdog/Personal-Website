@@ -1,0 +1,175 @@
+.about-box {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.box-left {
+    flex: 0.5;
+    background-color: white;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-left-radius: 20px; 
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.box-right {
+    flex: 0.5;
+    background-color: #32612D;
+    border-top-right-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px; 
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.box-image {
+    width: 300px; /* Width of the image */
+    height: 300px; /* Height of the image */
+    border-radius: 50%; /* Rounded image */
+    object-fit: cover; /* Ensure the image covers its container */
+    margin-top: 50px;
+} 
+
+.box-left-text {
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.box-left-title {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative; /* To position the line absolutely inside this container */
+    padding-bottom: 20px; /* Space for the line */
+}
+
+.box-left-title-mobile {
+    display: none;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative; /* To position the line absolutely inside this container */
+    padding-bottom: 20px; /* Space for the line */
+}
+
+.box-left-title-mobile::after {
+    content: ''; /* No content */
+    display: block; /* Block-level element */
+    width: 150px; /* Adjust width of the line */
+    height: 2px; /* Line thickness */
+    background-color: #D4AF37; /* Line color (Tomato) */
+    margin: 10px auto 0; /* Center horizontally and add space from text */
+  }
+
+.box-left-title::after {
+    content: ''; /* No content */
+    display: block; /* Block-level element */
+    width: 150px; /* Adjust width of the line */
+    height: 2px; /* Line thickness */
+    background-color: #D4AF37; /* Line color (Tomato) */
+    margin: 10px auto 0; /* Center horizontally and add space from text */
+  }
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.about-container {
+    background: linear-gradient(to right, #234F1E 40%, #ffffff 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.spacing {
+    margin-bottom:10px;
+}
+
+.typing {
+    margin-top: 100px;
+    display: inline-block;
+    overflow: hidden; /* Ensures text is hidden until revealed */
+    white-space: nowrap; /* Keeps text on a single line */
+    border-right: 0px solid #000; /* Cursor effect */
+    animation: typing 1s steps(20, end);
+}
+
+.typing-text {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+@keyframes typing {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+
+
+.header {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .about-box {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 325px;
+        box-shadow: none;
+    }
+
+    .box-left {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
+
+    }
+    .box-right {
+        background-color: #234F1E;
+    }
+
+    .box-left-text {
+        display: none
+    }
+
+    .box-left-title {
+        display: none;
+    }
+
+    .box-left-title-mobile {
+        display: block;
+    }
+
+    .about-container {
+        align-items: normal;
+        background: linear-gradient(to bottom, #ffff 40%, #234F1E 0%);
+    }
+
+    .typing {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
