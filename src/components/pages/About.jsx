@@ -8,7 +8,7 @@ export const About = () => {
     <div className='about-container'>
         <div className="about-box">
                     <div className="box-left">
-                        <img src="public/assets/image.jpeg" alt="image" className="box-image" />
+                        <img src="/src/assets/image.jpeg" alt="image" className="box-image" />
                         <div className="box-left-title">
                             <p>Oz Birdett</p>
                         </div>
