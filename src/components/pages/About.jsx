@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import './About.css'
-import image from './src/assets/image.jpeg'
+import image from '/src/assets/image.jpeg'
 
 export const About = () => {
   return (
