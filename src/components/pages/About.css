@@ -87,7 +87,7 @@
 
 
 .about-container {
-    background: linear-gradient(to right, #234F1E 40%, #ffffff 0%);
+    background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +145,7 @@
 
     }
     .box-right {
-        background-color: #234F1E;
+        background-color: #32612D;
     }
 
     .box-left-text {
@@ -162,7 +162,7 @@
 
     .about-container {
         align-items: normal;
-        background: linear-gradient(to bottom, #ffff 40%, #234F1E 0%);
+        background: linear-gradient(to bottom, #ffff 40%, #32612D 0%);
     }
 
     .typing {

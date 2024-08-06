@@ -5,7 +5,7 @@
     align-items: center;
     overflow-y: auto;
     height: 100vh;
-    background-color: #234F1E;
+    background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
 }
 
 .resume-box {
@@ -19,14 +19,25 @@
   }
 
 .resume-box-left {
-    flex: 0.4;
-    background-color: #fff1;
+    flex: 0.5;
+    background-color: white;
     display: flex;
     flex-direction: column; /* Stack children vertically */
     align-items: left; /* Center align items horizontally */
     justify-content: center;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.resume-box-right {
+    flex: 0.5;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: right;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .resume-header {
@@ -47,10 +58,12 @@
 .date {
     font-size: 19px;
     margin-left: 50px;
-    margin-bottom: 10px;
 }
 
 .text {
-    font-weight: lighter;
     margin-left: 50px;
+}
+
+.paragraph {
+    margin-right: 50px;
 }
