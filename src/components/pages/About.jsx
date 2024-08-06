@@ -1,14 +1,14 @@
 import React from 'react'
 import { Button } from './Button'
 import './About.css'
-
+import image from './src/assets/image.jpeg'
 
 export const About = () => {
   return (
     <div className='about-container'>
         <div className="about-box">
                     <div className="box-left">
-                        <img src="/personal-website/public/assets/image.jpeg" alt="image" className="box-image" />
+                        <img src={image} alt="image" className="box-image" />
                         <div className="box-left-title">
                             <p>Oz Birdett</p>
                         </div>
