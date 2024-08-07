@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
@@ -10,12 +9,11 @@
 
 .resume-box {
     width: 700px;      /* Width of the box */
-    height: 700px;     /* Height of the box */
     border-radius: 20px;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    overflow: hidden; /* Ensure internal content doesn't cause reflow */
+
   }
 
 .resume-box-left {
@@ -43,10 +41,10 @@
 .resume-header {
     color: white;
     margin-right: 540px;
-    margin-top: 30px;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 }
 
 .position {
@@ -65,5 +63,61 @@
 }
 
 .paragraph {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-right: 50px;
+}
+
+
+@media (max-width: 480px) {
+
+    .spacing {
+        margin-top: 10px;
+    }
+
+    .container {
+        background: linear-gradient(to right, #32612D 45%, #32612D 0%);
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .resume-box {
+        flex-direction: column;
+        width: 400px;
+        box-shadow: none;
+    }
+
+    .resume-box-left {
+        border-bottom-left-radius: 0px;
+        margin-bottom: -1px;
+    }
+    .resume-box-right {
+        border-top-right-radius: 0px;
+        align-items: left;
+    }
+
+    .resume-header {
+        margin-top: 10px;
+        margin-left: 300px;
+        text-align: center;
+    }
+
+    .position {
+        margin-left: 20px;
+    }
+
+    .text {
+        margin-left: 20px;
+    }
+
+    .date {
+        margin-left: 20px;
+    }
+
+    .paragraph {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
 }

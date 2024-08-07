@@ -22,6 +22,7 @@ nav .title {
 
 nav ul {
     display: flex;
+    background-color: white;
 }
 
 nav ul.open {
@@ -36,7 +37,7 @@ nav ul li a {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
 }
