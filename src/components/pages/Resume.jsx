@@ -35,10 +35,14 @@ export const Resume = () => {
             <div className="resume-header"></div>
             <div className="resume-box">
                 <div className="resume-box-left">
-
+                    <div className="spacing"></div>
+                    <p className="position">Brand Ambassador</p>
+                    <p className="date">Amped Up Marketing</p>
+                    <p className="text">Nov 2021 - Oct 2023</p>
+                    <p className="text">DFW Metroplex</p>
                 </div>
                 <div className="resume-box-right">
-
+                    <p className="paragraph">As a Brand Ambassador, I would represent Honda at community and volunteer invents across the Dallas-Fort Worth Metroplex. At these events I would interact with the public by handing out merchandise and taking photos with them, with the ultimate goal of improving Honda's image.</p>
                 </div>
             </div>
     </div>
