@@ -22,11 +22,12 @@ nav .title {
 
 nav ul {
     display: flex;
-    background-color: white;
 }
 
 nav ul.open {
     display: flex;
+    background-color: white;
+    width: 100%;
 }
 
 nav ul li {
@@ -84,5 +85,9 @@ nav .menu span {
         color: black;
     }
 
+    nav ul li a {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
 
 }

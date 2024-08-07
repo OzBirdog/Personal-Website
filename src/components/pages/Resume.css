@@ -8,7 +8,8 @@
 }
 
 .resume-box {
-    width: 700px;      /* Width of the box */
+    width: 90%;
+    max-width: 700px;      /* Width of the box */
     border-radius: 20px;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     display: flex;
@@ -48,32 +49,32 @@
 }
 
 .position {
-    margin-left: 50px;
+    margin-left: 14%;
     font-weight: bold;
     font-size: 20px;
 }
 
 .date {
     font-size: 19px;
-    margin-left: 50px;
+    margin-left: 14%;
 }
 
 .text {
-    margin-left: 50px;
+    margin-left: 14%;
 }
 
 .paragraph {
     font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 50px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-right: 14%;
 }
 
 
 @media (max-width: 480px) {
 
     .spacing {
-        margin-top: 10px;
+        margin-top: 0%;
     }
 
     .container {
@@ -83,7 +84,8 @@
     }
     .resume-box {
         flex-direction: column;
-        width: 400px;
+        width: 90%;
+        height: auto;
         box-shadow: none;
     }
 
@@ -97,27 +99,28 @@
     }
 
     .resume-header {
-        margin-top: 10px;
-        margin-left: 300px;
-        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 45%;
+        padding: 0px;
     }
 
     .position {
-        margin-left: 20px;
+        margin-left: 6%;
     }
 
     .text {
-        margin-left: 20px;
+        margin-left: 6%;
     }
 
     .date {
-        margin-left: 20px;
+        margin-left: 6%;
     }
 
     .paragraph {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 0px;
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
 }
