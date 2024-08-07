@@ -5,6 +5,7 @@
     overflow-y: auto;
     height: 100vh;
     background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
+    transform: translateZ(0);
 }
 
 .resume-box {
@@ -13,7 +14,6 @@
     border-radius: 20px;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     display: flex; /* Ensure internal content doesn't cause reflow */
-
   }
 
 .resume-box-left {
@@ -85,7 +85,6 @@
         flex-direction: column;
         width: 90%;
         box-shadow: none;
-        overflow-y: visible;
     }
 
     .resume-box-left {
