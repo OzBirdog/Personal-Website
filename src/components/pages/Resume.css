@@ -5,7 +5,6 @@
     overflow-y: auto;
     height: 100vh;
     background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
-    transform: translateZ(0);
 }
 
 .resume-box {
