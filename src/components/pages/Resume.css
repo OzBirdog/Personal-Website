@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: auto;
-    height: 100vh;
+    overflow-y: scroll;
+    height: auto;
     background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
 }
 
