@@ -46,6 +46,24 @@
     padding: 20px;
 }
 
+.resume-header2 {
+    color: white;
+    margin-right: 615px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.resume-header3 {
+    color: white;
+    margin-right: 550px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
 .position {
     margin-left: 14%;
     font-weight: bold;
@@ -68,6 +86,21 @@
     margin-right: 14%;
 }
 
+.spacing2 {
+    margin-top: 25px;
+}
+
+.spacing3 {
+    margin-top: 10px;
+}
+ul.a {
+    list-style-type: square;
+    margin-left: 65px;
+  }
+
+  ul.a li::marker {
+    color: #D4AF37; /* Gold color for the bullet points */
+}
 
 @media (max-width: 480px) {
 
@@ -104,6 +137,20 @@
         padding: 0px;
     }
 
+    .resume-header2 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 68%;
+        padding: 0px;
+    }
+
+    .resume-header3 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 54%;
+        padding: 0px;
+    }
+
     .position {
         margin-left: 6%;
     }
@@ -122,4 +169,15 @@
         margin-right: 6%;
     }
 
+    ul.a {
+        margin-left: 40px;
+    }
+
+    .spacing2{
+        margin-top: 0px;
+    }
+
+    .spacing3{
+        margin-top: 0px;
+    }
 }
