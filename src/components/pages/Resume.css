@@ -1,4 +1,4 @@
-.container {
+.resume-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +75,7 @@
 
 .resume-header5 {
     color: white;
-    margin-right: 410px;
+    margin-right: 575px;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -97,6 +97,16 @@
     margin-left: 14%;
 }
 
+.mobile-text {
+    display: none;
+}
+
+.pc-text {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 14%;
+}
+
 .paragraph {
     font-size: 15px;
     margin-top: 8%;
@@ -110,6 +120,10 @@
 
 .spacing3 {
     margin-top: 10px;
+}
+
+.spacing4 {
+    margin-top: 6px;
 }
 
 .list-spacing {
@@ -199,7 +213,7 @@ ul.b li::marker {
     .resume-header5 {
         margin-top: 2%;
         margin-bottom: 2%;
-        margin-right: 15%;
+        margin-right: 60%;
         padding: 0px;
     }
 
@@ -209,6 +223,15 @@ ul.b li::marker {
 
     .text {
         margin-left: 6%;
+    }
+
+    .mobile-text {
+        margin-left: 6%;
+        display: flex;
+    }
+
+    .pc-text {
+        display: none;
     }
 
     .date {
@@ -235,6 +258,10 @@ ul.b li::marker {
     }
 
     .spacing3{
+        margin-top: 0px;
+    }
+
+    .spacing4 {
         margin-top: 0px;
     }
 }

@@ -1,0 +1,27 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: auto;
+    background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
+}
+
+.projects-box {
+    width: 90%;
+    max-width: 700px;      /* Width of the box */
+    border-radius: 20px;
+    box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
+    display: flex; /* Ensure internal content doesn't cause reflow */
+}
+
+.projects-box-left {
+    flex: 0.5;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: left; /* Center align items horizontally */
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
