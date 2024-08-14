@@ -64,6 +64,24 @@
     padding: 20px;
 }
 
+.resume-header4 {
+    color: white;
+    margin-right: 490px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.resume-header5 {
+    color: white;
+    margin-right: 410px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
 .position {
     margin-left: 14%;
     font-weight: bold;
@@ -93,19 +111,39 @@
 .spacing3 {
     margin-top: 10px;
 }
+
+.list-spacing {
+    margin-top: 20px;
+}
+
 ul.a {
     list-style-type: square;
     margin-left: 65px;
-  }
+}
 
-  ul.a li::marker {
+ul.a li::marker {
     color: #D4AF37; /* Gold color for the bullet points */
+}
+
+ul.b {
+    list-style-type: square;
+    margin-left: 65px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+ul.b li::marker {
+    color: #D4AF37;
 }
 
 @media (max-width: 480px) {
 
     .spacing {
         margin-top: 0%;
+    }
+
+    .list-spacing {
+        margin-top: 0px;
     }
 
     .container {
@@ -151,6 +189,20 @@ ul.a {
         padding: 0px;
     }
 
+    .resume-header4 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 36%;
+        padding: 0px;
+    }
+
+    .resume-header5 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 15%;
+        padding: 0px;
+    }
+
     .position {
         margin-left: 6%;
     }
@@ -171,6 +223,11 @@ ul.a {
 
     ul.a {
         margin-left: 40px;
+    }
+
+    ul.b {
+        margin-left: 40px;
+        margin-bottom: 0px;
     }
 
     .spacing2{

@@ -23,6 +23,26 @@ export const Resume = () => {
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
+                    <ul className="b">
+                        <li>Problem Solving</li>
+                        <li>Attenion to Detail</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+                <div className="resume-box-right">
+                    <div className="list-spacing"></div>
+                    <ul className="b">
+                        <li>Communication</li>
+                        <li>Team Leadership</li>
+                        <li>Customer Service</li>
+                    </ul>
+                    <div className="spacing"></div>
+                </div>
+            </div> 
+        <div className="resume-header4">Technical Skills</div>
+            <div className="resume-box">
+                <div className="resume-box-left">
+                    <div className="spacing"></div>
                     <p className="position">Programming Languages:</p>
                     <ul className="a">
                         <li>C/C++ (Interm.)</li>
@@ -63,7 +83,7 @@ export const Resume = () => {
                     <div className="spacing"></div>
                     <div className="spacing2"></div>
                 </div>
-           </div>
+           </div>  
         <div className="resume-header">Experience</div>
             <div className="resume-box">
                 <div className="resume-box-left">
@@ -99,6 +119,7 @@ export const Resume = () => {
                     <p className="text">Jul 2022 - Aug 2022,</p>
                     <p className="text">Jul 2023 - Aug 2023</p>
                     <p className="text">Denton, TX</p>
+                    <p className="spacing"></p>
                 </div>
                 <div className="resume-box-right">
                     <p className="paragraph">Assisted in preparing the apartments for new residents by looking for broken or missing items and either fixing or repairing them. Once residents started moving in, I would resolve any maintance issues they had.   </p>
@@ -115,6 +136,21 @@ export const Resume = () => {
                 </div>
                 <div className="resume-box-right">
                     <p className="paragraph">Started out working outside as an outside lead, where I had to maintain 80 golf carts throughout the day. A year later I was promoted to the Pro-Shop, which included customer service, running the register, managing the outside workers, and closing at the end of the day. </p>
+                </div>
+            </div>
+            <div className="resume-header5">Awards/Scholarships</div>
+            <div className="resume-box">
+                <div className="resume-box-left">
+                    <p className="spacing"></p>
+                    <p className= "position">Dean's List (GPA 3.5)</p>
+                    <p className="text">Fall 2020, Spring 2023, Fall 2023</p>
+                    <div className="spacing"></div>
+                    <p className="position">President's List (GPA 4.0)</p>
+                    <p className="text">Spring 2020, Fall 2023</p>
+                    <div className="spacing"></div>
+                    <p className="position">Eagle Scholarship (GPA 3.5)</p>
+                    <p className="text">Fall 2020 - Spring 2024</p>
+                    <p className="spacing"></p>
                 </div>
             </div>
     </div>
