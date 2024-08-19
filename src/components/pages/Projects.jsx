@@ -2,70 +2,88 @@ import React from 'react'
 import './Projects.css'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Scrape1 from '/src/assets/Scrape1.png'
+import Scrape2 from '/src/assets/Scrape2.png'
+import Scrape3 from '/src/assets/Scrape3.png'
+import Recycle1 from '/src/assets/Recycle1.png'
+import Recycle2 from '/src/assets/Recycle2.png'
+import Recycle3 from '/src/assets/Recycle3.png'
+import Recycle4 from '/src/assets/Recycle4.png'
+import Minus1 from '/src/assets/Minus1.png'
+import Minus2 from '/src/assets/Minus2.png'
+import Minus3 from '/src/assets/Minus3.png'
+import Minus4 from '/src/assets/Minus4.png'
+import Garage1 from '/src/assets/Garage1.png'
+import Garage2 from '/src/assets/Garage2.png'
+import Garage3 from '/src/assets/Garage3.png'
+import Garage4 from '/src/assets/Garage4.png'
+import Garage5 from '/src/assets/Garage5.png'
+import Garage6 from '/src/assets/Garage6.png'
+import Garage7 from '/src/assets/Garage7.png'
 
 const scrape = [
   {
-    original: '/src/assets/Scrape1.png',
+    original: Scrape1,
   },
   {
-    original: '/src/assets/Scrape2.png',
+    original: Scrape2,
   },
   {
-    original: '/src/assets/Scrape3.png',
+    original: Scrape3,
   },
 ];
 
 const recycle = [
   {
-    original: '/src/assets/Recycle1.png',
+    original: Recycle1,
   },
   {
-    original: '/src/assets/Recycle2.png',
+    original: Recycle2,
   },
   {
-    original: '/src/assets/Recycle3.png',
+    original: Recycle3,
   },
   {
-    original: '/src/assets/Recycle4.png',
+    original: Recycle4,
   },
 ]
 
 const minus = [
   {
-    original: '/src/assets/Minus1.png',
+    original: Minus1,
   },
   {
-    original: '/src/assets/Minus2.png',
+    original: Minus2,
   },
   {
-    original: '/src/assets/Minus3.png',
+    original: Minus3,
   },
   {
-    original: '/src/assets/Minus4.png',
+    original: Minus4,
   },
 ]
 
 const garage = [
   {
-    original: '/src/assets/Garage1.png',
+    original: Garage1,
   },
   {
-    original: '/src/assets/Garage2.png',
+    original: Garage2,
   },
   {
-    original: '/src/assets/Garage3.png',
+    original: Garage3,
   },
   {
-    original: '/src/assets/Garage4.png',
+    original: Garage4,
   },
   {
-    original: '/src/assets/Garage5.png',
+    original: Garage5,
   },
   {
-    original: '/src/assets/Garage6.png',
+    original: Garage6,
   },
   {
-    original: '/src/assets/Garage7.png',
+    original: Garage7,
   },
 ]
 
