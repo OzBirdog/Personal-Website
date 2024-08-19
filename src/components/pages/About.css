@@ -130,7 +130,7 @@
     text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-height: 480px) or (max-width: 480px) {
     .about-box {
         margin-top: 20px;
         flex-direction: column;

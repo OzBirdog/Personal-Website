@@ -11,6 +11,7 @@
     width: 90%;
     max-width: 1000px;      /* Width of the box */
     border-radius: 20px;
+    max-height: 600px;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     display: flex; /* Ensure internal content doesn't cause reflow */
 }
@@ -26,6 +27,17 @@
     border-bottom-left-radius: 20px;
 }
 
+.projects-box-right {
+    flex: 0.5;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 .projects-header {
     color: white;
     margin-right: 860px;
@@ -39,6 +51,10 @@
     margin-left: 8%;
     font-weight: bold;
     font-size: 20px;
+}
+
+.link {
+    color: black;
 }
 
 .description {
@@ -67,9 +83,47 @@ ul.c li::marker {
     color: #D4AF37; /* Gold color for the bullet points */
 }
 
-@media (max-width: 480px) {
+.projects-spacing {
+    margin-top: 30px;
+}
+
+.projects-spacing2 {
+    margin-top: 30px;
+}
+
+.projects-spacing3 {
+    margin-top: 30px;
+}
+
+.projects-spacing4 {
+    margin-top: 30px;
+}
+
+.projects-spacing5 {
+    margin-top: 30px;
+}
+
+.portfolio-spacing {
+    margin: 0px;
+}
+
+.image-gallery-wrapper {
+    width: 100%;
+    max-width: 475px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+@media (max-height: 480px) or (max-width: 480px) {
     .spacing {
         margin-top: 0%;
+    }
+
+    .projects-header {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 60%;
+        padding: 0px;
     }
 
     .projects-container {
@@ -81,6 +135,68 @@ ul.c li::marker {
         flex-direction: column;
         width: 90%;
         box-shadow: none;
+    }
+    .projects-box-left {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        margin-bottom: -1px;
+    }
+    .projects-box-right {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        align-items: left;
+    }
+
+    .description {
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .title {
+        margin-left: 6%;
+    }
+
+    .sub-title {
+        margin-left: 6%;
+    }
+
+    .role {
+        margin-left: 6%;
+    }
+
+    ul.c {
+        margin-left: 40px;
+        margin-right: 6%;
+    }
+
+    .projects-spacing {
+        margin-top: 70px;
+    }
+
+    .projects-spacing2 {
+        margin-top: 195px;
+    }
+
+    .projects-spacing3 {
+        margin-top: 145px;
+    }
+
+    .projects-spacing4 {
+        margin-top: 170px;
+    }
+
+    .image-gallery-wrapper {
+        border-bottom-left-radius: 20px;
+        border-radius: 20px;
+    }
+
+    .portfolio-spacing {
+        margin-top: 20px;
+    }
+
+    .projects-spacing5 {
+        margin-top: 30px;
     }
 
 }

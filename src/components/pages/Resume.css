@@ -150,7 +150,7 @@ ul.b li::marker {
     color: #D4AF37;
 }
 
-@media (max-width: 480px) {
+@media (max-height: 480px) or (max-width: 480px) {
 
     .spacing {
         margin-top: 0%;

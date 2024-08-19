@@ -28,7 +28,7 @@ export const About = () => {
                         <p className="header">Here's my experience</p>
                         <div className="buttons">
                             <Button text="Resume" className="button-resume" link="/resume"/>
-                            <Button text="Projects" style={{ backgroundColor: '#2196F3', color: 'white' }} className="button-projects"/>
+                            <Button text="Projects" style={{ backgroundColor: '#2196F3', color: 'white' }} className="button-projects" link="/projects"/>
                         </div>
                     </div>
                 </div>
