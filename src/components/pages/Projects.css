@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: auto;
     background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
 }
@@ -171,11 +171,11 @@ ul.c li::marker {
     }
 
     .projects-spacing {
-        margin-top: 70px;
+        margin-top: 270px;
     }
 
     .projects-spacing2 {
-        margin-top: 195px;
+        margin-top: 245px;
     }
 
     .projects-spacing3 {
@@ -183,7 +183,7 @@ ul.c li::marker {
     }
 
     .projects-spacing4 {
-        margin-top: 170px;
+        margin-top: 130px;
     }
 
     .image-gallery-wrapper {
