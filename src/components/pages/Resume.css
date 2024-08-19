@@ -160,7 +160,7 @@ ul.b li::marker {
         margin-top: 0px;
     }
 
-    .container {
+    .resume-container {
         background: linear-gradient(to right, #32612D 45%, #32612D 0%);
         width: 100%;
         overflow-x: hidden;

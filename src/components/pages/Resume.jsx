@@ -4,7 +4,7 @@ import './Resume.css'
 export const Resume = () => {
   return (
     <div className="resume-container">
-        <div className="resume-header3">Education</div>
+        <h1 className="resume-header3">Education</h1>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
@@ -19,7 +19,7 @@ export const Resume = () => {
                     <p className ="paragraph">While attending the University of North Texas I learned about different coding languages, including C++, SQL, JavaScript, HTML, and CSS. I also learned different coding methodologies, like Scrum, Kanban, and Waterfall, while working on various projects. </p>
                 </div>
             </div>
-        <div className="resume-header2">Skills</div>
+        <h1 className="resume-header2">Skills</h1>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
@@ -39,7 +39,7 @@ export const Resume = () => {
                     <div className="spacing"></div>
                 </div>
             </div> 
-        <div className="resume-header4">Technical Skills</div>
+        <h1 className="resume-header4">Technical Skills</h1>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
@@ -84,7 +84,7 @@ export const Resume = () => {
                     <div className="spacing2"></div>
                 </div>
            </div>  
-        <div className="resume-header">Experience</div>
+        <h1 className="resume-header">Experience</h1>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
@@ -138,7 +138,7 @@ export const Resume = () => {
                     <p className="paragraph">Started out working outside as an outside lead, where I had to maintain 80 golf carts throughout the day. A year later I was promoted to the Pro-Shop, which included customer service, running the register, managing the outside workers, and closing at the end of the day. </p>
                 </div>
             </div>
-            <div className="resume-header5">Awards</div>
+            <h1 className="resume-header5">Awards</h1>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <p className="spacing"></p>
@@ -162,8 +162,7 @@ export const Resume = () => {
                     <p className="spacing"></p>
                 </div>
             </div>
-            <div className="spacing"></div>
-            <div className="spacing"></div>
+            <div className="resume-header"></div>
     </div>
   )
 }

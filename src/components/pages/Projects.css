@@ -9,7 +9,7 @@
 
 .projects-box {
     width: 90%;
-    max-width: 700px;      /* Width of the box */
+    max-width: 1000px;      /* Width of the box */
     border-radius: 20px;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2); /* Box shadow */
     display: flex; /* Ensure internal content doesn't cause reflow */
@@ -24,4 +24,63 @@
     justify-content: center;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.projects-header {
+    color: white;
+    margin-right: 860px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.role {
+    font-size: 16px;
+    margin-left: 8%;
+}
+
+.sub-title {
+    font-size: 16px;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+ul.c {
+    list-style-type: square;
+    margin-left: 8%;
+}
+
+ul.c li::marker {
+    color: #D4AF37; /* Gold color for the bullet points */
+}
+
+@media (max-width: 480px) {
+    .spacing {
+        margin-top: 0%;
+    }
+
+    .projects-container {
+        background: linear-gradient(to right, #32612D 45%, #32612D 0%);
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .projects-box {
+        flex-direction: column;
+        width: 90%;
+        box-shadow: none;
+    }
+
 }
