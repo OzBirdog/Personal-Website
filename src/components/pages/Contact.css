@@ -1,0 +1,26 @@
+.contact-container {
+    background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-box {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-header {
+    color: white;
+    margin-right: 650px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}

@@ -20,7 +20,7 @@ export const Navbar = () => {
         </div>
         <ul className={menuOpen ? "open" : ""}>
             <li>
-                <NavLink to="/about" onClick={handleLinkClick}>About Me</NavLink>
+                <NavLink to="/" onClick={handleLinkClick}>About Me</NavLink>
             </li>
             <li>
                 <NavLink to="/resume" onClick={handleLinkClick}>Resume</NavLink>

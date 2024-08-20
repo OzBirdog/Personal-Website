@@ -96,6 +96,9 @@ export const Projects = () => {
         <div className="projects-box-left">
           <div className="spacing"></div>
           <h2 className="title">Portfolio Website</h2>
+          <a href="https://github.com/OzBirdog/Personal-Website" className="link" target="_blank" rel="noopener noreferrer">
+            <p className="role">Visit GitHub</p>
+          </a>
           <p className="role">Frontend</p>
           <p className="description">Created a website over the course of a few weeks that allows people to view my portfolio easily.</p>
           <p className="description">Coded the whole website using React.js.</p>
@@ -123,8 +126,9 @@ export const Projects = () => {
       <div className="projects-box">
         <div className="projects-box-left">
           <div className="spacing"></div>
+          <h2 className="title">Garage Sale Finder</h2> 
           <a href="https://github.com/eagle-garage-sale/Garage_Sale_Finder" className="link" target="_blank" rel="noopener noreferrer">
-            <h2 className="title">Garage Sale Finder</h2>
+            <p className="role">Visit Github</p>
           </a>
           <p className="role">Frontend/Backend</p>
           <p className="description">Created a website over the course of two semesters that allows people to find garage sales in their area.</p>
@@ -156,8 +160,9 @@ export const Projects = () => {
       <div className="projects-box">
         <div className="projects-box-left">
           <div className="spacing"></div>
+          <h2 className="title">Mean Green Deal</h2>
           <a href="https://mean-green-deal.github.io/" className="link" target="_blank" rel="noopener noreferrer">
-            <h2 className="title">Mean Green Deal</h2>
+            <p className="role">Visit Website</p>
           </a>
           <p className="role">Frontend</p>
           <p className="description">Created a website over the course of a semester that encourage students to recycle around campus.</p>
@@ -188,8 +193,9 @@ export const Projects = () => {
       <div className="projects-box">
         <div className="projects-box-left">
           <div className="spacing"></div>
+          <h2 className="title">Scrape My Professors</h2>
           <a href="https://scrapemyprofs.streamlit.app/" className="link" target="_blank" rel="noopener noreferrer">
-            <h2 className="title">Scrape My Professors</h2>
+            <p className="role">Visit Website</p>
           </a>
           <p className="role">Frontend</p>
           <p className="description">Created a website with a team for hackUNT 2023 that displayed visuals for grades and reviews of professors at UNT.</p>
@@ -217,8 +223,9 @@ export const Projects = () => {
       <div className="projects-box">
         <div className="projects-box-left">
           <div className="spacing"></div>
+          <h2 className="title">Minus the Tutor Chat Bot</h2>
           <a href="https://devpost.com/software/minus-the-tutor-chatbot" className="link" target="_blank" rel="noopener noreferrer">
-            <h2 className="title">Minus the Tutor Chat Bot</h2>
+            <p className="role">Visit DevPost</p>
           </a>
           <p className="description">Created a chatbot with a team for the NSBEHack 2023 Hackathon that was designed to answer questions from various learning subjects at different grade levels.</p>
           <p className="description">Worked on the code for the AI and designed the UI and layout of the app.</p>
