@@ -9,18 +9,109 @@
 }
 
 .contact-box {
-    width: 800px;
-    height: 600px;
+    width: 700px;
+    height: 550px;
     border-radius: 20px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .contact-header {
-    color: white;
-    margin-right: 650px;
+    color: black;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
 }
+
+.contact-msg {
+    font-size: 1rem;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul.d {
+    font-size: 1.5rem;
+    list-style-type: square;
+}
+
+ul.d li::marker {
+    color: black; /* Gold color for the bullet points */
+}
+
+/* Container styling */
+.formRow {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Add consistent height to input fields */
+  .formInput {
+    width: 400px; /* Set a specific width */
+    height: 2.5rem; /* Adjust height as needed */
+    padding: 1rem; /* Add padding to prevent text from touching edges */
+    border: 2px solid #32612D;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  textarea.formInput {
+    min-height: 6rem; /* Adjust if needed */
+    resize: vertical; /* Allow vertical resizing if needed */
+  }
+  
+  /* Styling for error messages */
+  .errorMessage {
+    color: red;
+    font-size: 0.875rem;
+    display: block;
+    margin-top: 0.25rem;
+    left: 0; /* Align with the left edge of the input */
+    width: 100%;
+  }
+  
+  
+  /* Button styling */
+  .submit-button {
+    margin: 1rem auto 0; /* Center horizontally and add space at the top */
+    display: block; /* Ensure it behaves as a block element */
+    border: 2px solid #32612D;
+    background-color: white;
+    color: black;
+    padding: 6px 28px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 100px; /* Curved border */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .submit-button:hover {
+    border: 2px solid #D4AF37;
+    background-color: #D4AF37;
+    color: white;
+  }
+
+  .alert {
+    padding: 10px;
+    margin-top: 1em;
+    border-radius: 20px;
+  }
+  
+  .alert-success {
+    color: #4caf50; /* Green */
+  }
+  
+  .alert-error {
+    color: #f44336; /* Red */
+  }
