@@ -3,14 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: 100vh;
+    min-height: 800px;
     width: 100%;
+    gap: 40px;
 }
 
 .contact-box {
-    width: 700px;
-    height: 550px;
+    width: 550px;
+    min-height: 475px;
+    height: auto;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -21,7 +23,7 @@
 
 .contact-header {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -31,19 +33,20 @@
     font-size: 1rem;
 }
 
-.contact-title {
+.contact-list {
     font-size: 1.5rem;
-    font-weight: bold;
 }
+
+.contact-spacing {
+    margin-top:30px;
+}
+
 
 ul.d {
     font-size: 1.5rem;
-    list-style-type: square;
+    list-style-type: none;
 }
 
-ul.d li::marker {
-    color: black; /* Gold color for the bullet points */
-}
 
 /* Container styling */
 .formRow {
@@ -56,7 +59,7 @@ ul.d li::marker {
   /* Add consistent height to input fields */
   .formInput {
     width: 400px; /* Set a specific width */
-    height: 2.5rem; /* Adjust height as needed */
+    height: 3rem; /* Adjust height as needed */
     padding: 1rem; /* Add padding to prevent text from touching edges */
     border: 2px solid #32612D;
     border-radius: 10px;
@@ -78,10 +81,15 @@ ul.d li::marker {
     width: 100%;
   }
   
-  
+  .link {
+    color: #D4AF37;
+    text-decoration: none;
+}
+
   /* Button styling */
   .submit-button {
     margin: 1rem auto 0; /* Center horizontally and add space at the top */
+    margin-bottom: 20px;
     display: block; /* Ensure it behaves as a block element */
     border: 2px solid #32612D;
     background-color: white;
@@ -114,4 +122,20 @@ ul.d li::marker {
   
   .alert-error {
     color: #f44336; /* Red */
+  }
+
+  @media (max-height: 480px) or (max-width: 480px) {
+    .contact-box {
+        width: 350px;
+    }
+
+    .formInput {
+        width: 300px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 0px;
+        min-height: 1100px;
+    }
   }
