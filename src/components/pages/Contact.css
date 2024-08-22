@@ -21,6 +21,17 @@
     box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
+.contact-box2 {
+    width: 550px;
+    height: 290px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: -1px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
 .contact-header {
     color: black;
     font-size: 1.75rem;

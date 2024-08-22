@@ -25,6 +25,8 @@ export const Contact = () => {
     }, 5000);
   };
 
+  const user_email="ozbirdett@gmail.com";
+
   const onSubmit = async (data) => {
     const { name, email, subject, message } = data;
     try {
@@ -32,10 +34,12 @@ export const Contact = () => {
 
       const templateParams = {
         name,
+        user_email,
         email,
         subject,
         message,
       };
+
 
       await emailjs.send(
         import.meta.env.VITE_SERVICE_ID,
@@ -167,7 +171,7 @@ export const Contact = () => {
         )}
       </div>
       <div className="contact-spacing"></div>
-      <div className="contact-box">
+      <div className="contact-box2">
         <div className="contact-header">Contact Information</div>
           <p className="contact-list">ozbirdett@gmail.com</p>
           <p className="contact-list">817-559-5284</p>

@@ -4,7 +4,11 @@ import './Resume.css'
 export const Resume = () => {
   return (
     <div className="resume-container">
+        <div className="header-with-button">
         <h1 className="resume-header3">Education</h1>
+        <button className="header-button">Resume</button>
+        <button className="header-button2"></button>
+        </div>
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>

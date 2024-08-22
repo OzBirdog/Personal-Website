@@ -7,6 +7,65 @@
     background: linear-gradient(to right, #32612D 45%, #FFFF 0%);
 }
 
+.header-with-button {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+    margin-left: 350px;
+}
+
+.header-button {
+    width: 160px;
+    border: 2px solid #D4AF37; /* Remove borders */
+    padding: 6px 28px; /* Some padding */
+    text-align: center; /* Center the text */;
+    text-decoration: none; /* Remove underline */
+    display: inline-flex; /* Change display to inline-flex */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margins */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 100px; /* Curved border */
+    background-color: #D4AF37;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    color: white;
+}
+
+.header-button:hover {
+    border: 2px solid #32612D;
+    background-color: white;
+    color: black;
+  }
+
+.header-button2 {
+    width: 160px;
+    border: 2px solid #32612D; /* Remove borders */
+    padding: 6px 28px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-flex; /* Change display to inline-flex */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margins */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 100px; /* Curved border */
+    background-color: #fff;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.header-button2:before {
+    content: "Cover Letter";
+}
+
+.header-button2:hover {
+    border: 2px solid #D4AF37;
+    background-color: #D4AF37;
+    color: white;
+}
+
 .resume-box {
     width: 90%;
     max-width: 700px;      /* Width of the box */
@@ -57,7 +116,8 @@
 
 .resume-header3 {
     color: white;
-    margin-right: 550px;
+    margin-left: 365px;
+    margin-right: 190px;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -152,6 +212,23 @@ ul.b li::marker {
 
 @media (max-height: 480px) or (max-width: 480px) {
 
+    .header-button {
+        width:100px;
+    }
+
+    .header-button2 {
+        color: black;
+        width:100px;
+    }
+
+    .header-button2:before {
+        content: "CV";
+    }
+
+    .header-with-button {
+        margin-left: 0px;
+    }
+
     .spacing {
         margin-top: 0%;
     }
@@ -199,7 +276,8 @@ ul.b li::marker {
     .resume-header3 {
         margin-top: 2%;
         margin-bottom: 2%;
-        margin-right: 54%;
+        margin-right: 0%;
+        margin-left: 8%;
         padding: 0px;
     }
 
