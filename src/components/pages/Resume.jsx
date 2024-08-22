@@ -1,12 +1,15 @@
 import React from 'react'
 import './Resume.css'
+import ResumeDoc from '/src/assets/Resume2024.pdf'
 
 export const Resume = () => {
   return (
     <div className="resume-container">
         <div className="header-with-button">
         <h1 className="resume-header3">Education</h1>
+        <a href={ResumeDoc} download="Oz Birdett Resume" target='_blank'>
         <button className="header-button">Resume</button>
+        </a>
         <button className="header-button2"></button>
         </div>
             <div className="resume-box">
