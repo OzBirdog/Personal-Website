@@ -153,4 +153,8 @@ ul.d {
         gap: 0px;
         min-height: 1100px;
     }
+
+    .contact-list {
+      text-decoration: none;
+    }
   }

@@ -176,10 +176,10 @@ export const Contact = () => {
           <p className="contact-list">ozbirdett@gmail.com</p>
           <p className="contact-list">817-559-5284</p>
         <div className="contact-header">Links</div>
-          <a className="link" href="https://www.linkedin.com/in/ozbirdett/">
+          <a className="link" href="https://www.linkedin.com/in/ozbirdett/" target="_blank" rel="noopener noreferrer">
             <p className="contact-list">LinkedIn</p>
           </a>
-          <a className="link" href="https://github.com/OzBirdog">
+          <a className="link" href="https://github.com/OzBirdog?tab=repositories" target="_blank" rel="noopener noreferrer">
             <p className="contact-list">Github</p>
           </a>
 
