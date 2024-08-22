@@ -138,9 +138,11 @@ ul.d {
   @media (max-height: 480px) or (max-width: 480px) {
     .contact-box {
         width: 350px;
+        margin-top: 30px;
     }
 
     .contact-box2 {
+      margin-bottom: 30px;
       width: 350px;
     }
 
@@ -151,7 +153,9 @@ ul.d {
     .contact-container {
         flex-direction: column;
         gap: 0px;
-        min-height: 1100px;
+        height: auto;
+        max-height: 1100px;
+        background: linear-gradient(to right, #32612D 45%, #32612D 0%);
     }
 
     .contact-list {

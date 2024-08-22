@@ -31,6 +31,8 @@ export const About = () => {
                             <Button text="Resume" className="button-resume" link="/resume"/>
                             <Button text="Projects" style={{ backgroundColor: '#2196F3', color: 'white' }} className="button-projects" link="/projects"/>
                         </div>
+                        <p className="info-mobile">My name is Oz Birdett and I recently graduated from the University of North Texas with a bachelor’s degree in computer science. What I am most passionate about is solving problems, which I’ve loved to do ever since I was a little kid building Legos.</p>
+                        <p className="info-mobile">Now the Legos have been replaced with coding, but it’s just as fun and rewarding. Over the years I’ve been able to grow my problem solving skills by taking coding classes and working jobs that require quick solutions. I hope to further utilize and grow my passion for problem solving at my next career.</p>
                     </div>
                 </div>
     </div>

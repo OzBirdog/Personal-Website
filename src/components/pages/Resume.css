@@ -190,17 +190,10 @@ ul.b li::marker {
         width:100px;
     }
 
-    .header-button2 {
-        color: black;
-        width:100px;
-    }
-
-    .header-button2:before {
-        content: "CV";
-    }
-
     .header-with-button {
+        margin-right: 50px;
         margin-left: 0px;
+        gap: 90px;
     }
 
     .spacing {
