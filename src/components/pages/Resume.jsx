@@ -1,6 +1,6 @@
-import React from 'react'
+import { React, useEffect, useState } from 'react'
 import './Resume.css'
-import ResumeDoc from '/src/assets/Resume2024.pdf'
+import ResumeDoc from '/src/assets/Resume 2024.pdf'
 
 export const Resume = () => {
   return (
@@ -10,7 +10,6 @@ export const Resume = () => {
         <a href={ResumeDoc} download="Oz Birdett Resume" target='_blank'>
         <button className="header-button">Resume</button>
         </a>
-        <button className="header-button2"></button>
         </div>
             <div className="resume-box">
                 <div className="resume-box-left">

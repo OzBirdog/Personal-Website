@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    gap:180px;
     width: 100%;
     margin-right: 385px;
 }
@@ -39,33 +39,6 @@
     background-color: white;
     color: black;
   }
-
-.header-button2 {
-    width: 160px;
-    border: 2px solid #32612D; /* Remove borders */
-    padding: 6px 28px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-flex; /* Change display to inline-flex */
-    justify-content: center; /* Center the text horizontally */
-    align-items: center; /* Center the text vertically */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Add some margins */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 100px; /* Curved border */
-    background-color: #fff;
-    transition: background-color 0.3s ease; /* Transition for hover effect */
-}
-
-.header-button2:before {
-    content: "Cover Letter";
-}
-
-.header-button2:hover {
-    border: 2px solid #D4AF37;
-    background-color: #D4AF37;
-    color: white;
-}
 
 .resume-box {
     width: 90%;
