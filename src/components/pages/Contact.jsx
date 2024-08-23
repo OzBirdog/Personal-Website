@@ -158,15 +158,6 @@ export const Contact = () => {
           role='alert'
         >
           {alertInfo.message}
-          <button
-            type='button'
-            className='btn-close'
-            data-bs-dismiss='alert'
-            aria-label='Close'
-            onClick={() =>
-              setAlertInfo({ display: false, message: '', type: '' })
-            }
-          ></button>
         </div>
         )}
       </div>
