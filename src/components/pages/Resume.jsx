@@ -113,7 +113,7 @@ export const Resume = () => {
                     <p className="text">DFW Metroplex</p>
                 </div>
                 <div className="resume-box-right">
-                    <p className="paragraph">As a Brand Ambassador, I would represent Honda at community and volunteer invents across the Dallas-Fort Worth Metroplex. At these events I would interact with the public by handing out merchandise and taking photos with them, with the ultimate goal of improving Honda's image.</p>
+                    <p className="paragraph">As a Brand Ambassador, I would represent Honda at community and volunteer events across the Dallas-Fort Worth Metroplex. At these events I would interact with the public by handing out merchandise and taking photos with them, with the ultimate goal of improving Honda's image.</p>
                 </div>
             </div>
             <div className="resume-header"></div>
