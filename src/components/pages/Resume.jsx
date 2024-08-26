@@ -128,7 +128,7 @@ export const Resume = () => {
                     <p className="spacing"></p>
                 </div>
                 <div className="resume-box-right">
-                    <p className="paragraph">Assisted in preparing the apartments for new residents by looking for broken or missing items and either fixing or repairing them. Once residents started moving in, I would resolve any maintance issues they had.   </p>
+                    <p className="paragraph">Assisted in preparing the apartments for new residents by looking for broken or missing items and either fixing or repairing them. Once residents started moving in, I would resolve any maintenance issues they had.   </p>
                 </div>
             </div>
             <div className="resume-header"></div>
