@@ -100,7 +100,7 @@ export const Resume = () => {
                     <p className="text">Coppell, TX</p>
                 </div>    
                 <div className="resume-box-right">
-                    <p className ="paragraph">My main responsibility at EMP Manufacturing is to help employees with any IT realted issues they encounter on a daily basis. This includes installing software, adding printers, or fixing any software or Windows issues. I also do administrative duties using Azure AD, like creating logins or emails and giving access to our shared file system.</p>
+                    <p className ="paragraph">My main responsibility at EMP Manufacturing is to help employees with any IT related issues they encounter on a daily basis. This includes installing software, adding printers, or fixing any software or Windows issues. I also do administrative duties using Azure AD, like creating logins or emails and giving access to our shared file system.</p>
                 </div>
             </div>
             <div className="resume-header"></div>
