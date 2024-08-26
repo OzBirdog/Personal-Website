@@ -228,8 +228,8 @@ export const Projects = () => {
             <p className="role">Visit DevPost</p>
           </a>
           <p className="description">Created a chatbot with a team for the NSBEHack 2023 Hackathon that was designed to answer questions from various learning subjects at different grade levels.</p>
-          <p className="description">Won the Google Vertex AI challenge, as well as 2nd place at the NSBEHack 2023</p>
           <p className="description">Worked on the code for the AI and designed the UI and layout of the app.</p>
+          <p className="description">Won the Google Vertex AI challenge, as well as 2nd place at the NSBEHack 2023</p>
           <h2 className="sub-title">Features:</h2>
           <ul className="c">
             <li>User can select from Elementary School to High School</li>
