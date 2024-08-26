@@ -223,7 +223,7 @@ export const Projects = () => {
       <div className="projects-box">
         <div className="projects-box-left">
           <div className="spacing"></div>
-          <h2 className="title">Minus the Tutor Chat Bot</h2>
+          <h2 className="title">Minus the Tutor Chatbot</h2>
           <a href="https://devpost.com/software/minus-the-tutor-chatbot" className="link" target="_blank" rel="noopener noreferrer">
             <p className="role">Visit DevPost</p>
           </a>
