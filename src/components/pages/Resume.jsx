@@ -94,7 +94,7 @@ export const Resume = () => {
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
-                    <p className="position">Help Desk Support</p>
+                    <p className="position">IT Support Specialist</p>
                     <p className="date">EMP Manufacturing</p>
                     <p className="text">Jul 2023 - Present</p>
                     <p className="text">Coppell, TX</p>
