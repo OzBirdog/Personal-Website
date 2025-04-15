@@ -7,7 +7,7 @@ export const Resume = () => {
     <div className="resume-container">
         <div className="header-with-button">
         <h1 className="resume-header3">Education</h1>
-        <a href={ResumeDoc} download="Oz Birdett Resume" target='_blank'>
+        <a href={ResumeDoc} download="Oz Birdett's Resume" target='_blank'>
         <button className="header-button">Resume</button>
         </a>
         </div>
