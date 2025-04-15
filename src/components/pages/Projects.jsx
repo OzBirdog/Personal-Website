@@ -100,8 +100,8 @@ export const Projects = () => {
             <p className="role">Visit GitHub</p>
           </a>
           <p className="role">Frontend</p>
-          <p className="description">Created a website over the course of a few weeks that allows people to view my portfolio easily.</p>
-          <p className="description">Coded the whole website using React.js.</p>
+          <p className="description">Developed a personal portfolio website to showcase my projects, resume, and contact information in a user-friendly format.</p>
+          <p className="description">Built using React.js.</p>
           <h2 className="sub-title">Features:</h2>
           <ul className="c">
             <li>Resume page showcasing experience</li>
@@ -131,8 +131,8 @@ export const Projects = () => {
             <p className="role">Visit Github</p>
           </a>
           <p className="role">Frontend/Backend</p>
-          <p className="description">Created a website over the course of two semesters that allows people to find garage sales in their area.</p>
-          <p className="description">Worked on the frontend and backend for adding garage sale listings.</p>
+          <p className="description">Collaborated with a team over two semesters on a website that helps people find garage sales in their area.</p>
+          <p className="description">Designed UI elements, developed frontend and backend for adding garage sale listings, as well as individual listing pages.</p>
           <h2 className="sub-title">Features:</h2>
           <ul className="c">
             <li>Users can create and login into an account</li>
@@ -165,8 +165,8 @@ export const Projects = () => {
             <p className="role">Visit Website</p>
           </a>
           <p className="role">Frontend</p>
-          <p className="description">Created a website over the course of a semester that encourage students to recycle around campus.</p>
-          <p className="description">Worked on the UI design and with Google Maps API (i.e showing user location and live tracking user location).</p>
+          <p className="description">Collaborated with a team over a semester on a website that encourages campus recycling.</p>
+          <p className="description">Designed UI elements and implemented with Google Map API services for user location and tracking.</p>
           <h2 className="sub-title">Features:</h2>
           <ul className="c">
             <li>Map displaying recycling bins around campus</li>
@@ -198,8 +198,8 @@ export const Projects = () => {
             <p className="role">Visit Website</p>
           </a>
           <p className="role">Frontend</p>
-          <p className="description">Created a website with a team for hackUNT 2023 that displayed visuals for grades and reviews of professors at UNT.</p>
-          <p className="description">Worked with the Streamlit framework to create a UI for the website and to configure the displayed data.</p>
+          <p className="description">Developed a website for hackUNT 2023 with a team that visualizes grades and review of professors at UNT.</p>
+          <p className="description">Designed UI for website and configured data visualization using Streamlit.</p>
           <h2 className="sub-title">Features:</h2>
           <ul className="c">
             <li>Users can select a professor and course to scrape for</li>

@@ -94,13 +94,13 @@ export const Resume = () => {
             <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
-                    <p className="position">Help Desk Support</p>
+                    <p className="position">IT Support Specialist</p>
                     <p className="date">EMP Manufacturing</p>
-                    <p className="text">Jul 2023 - Present</p>
-                    <p className="text">Coppell, TX</p>
+                    <p className="text">Jul 2023 - Feb 2025</p>
+                    <p className="text">Carrollton, TX</p>
                 </div>    
                 <div className="resume-box-right">
-                    <p className ="paragraph">My main responsibility at EMP Manufacturing is to help employees with any IT related issues they encounter on a daily basis. This includes installing software, adding printers, or fixing any software or Windows issues. I also do administrative duties using Azure AD, like creating logins or emails and giving access to our shared file system.</p>
+                    <p className ="paragraph">Provided 24/7 technical and administrative support to up to 20 employees. Duties included creating log-ins, managing emails, giving SharePoint access, installing software, setting up network devices, and fixing erros. Also managed network and server infactructure, which included setting up LAN ports and giving VPN access.</p>
                 </div>
             </div>
             <div className="resume-header"></div>
