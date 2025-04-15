@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react'
 import './Resume.css'
-import ResumeDoc from '/src/assets/Resume 2024.pdf'
+import ResumeDoc from '/src/assets/Resume 2025.pdf'
 
 export const Resume = () => {
   return (
