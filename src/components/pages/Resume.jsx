@@ -100,7 +100,7 @@ export const Resume = () => {
                     <p className="text">Carrollton, TX</p>
                 </div>    
                 <div className="resume-box-right">
-                    <p className ="paragraph">Provided 24/7 technical and administrative support to up to 20 employees. Duties included creating log-ins, managing emails, giving SharePoint access, installing software, setting up network devices, and fixing erros. Also managed network and server infactructure, which included setting up LAN ports and giving VPN access.</p>
+                    <p className ="paragraph">Provided 24/7 technical and administrative support to up to 20 employees. Duties included creating log-ins, managing emails, giving SharePoint access, installing software, setting up network devices, and fixing errors.</p>
                 </div>
             </div>
             <div className="resume-header"></div>
