@@ -92,6 +92,19 @@ export const Resume = () => {
            </div>  
         <h1 className="resume-header">Experience</h1>
             <div className="resume-box">
+                    <div className="resume-box-left">
+                        <div className="spacing"></div>
+                        <p className="position">Technical Support Specialist&nbsp;&nbsp;&nbsp;</p>
+                        <p className="date">First Command Financial Services</p>
+                        <p className="text">Jul 2025 - Present</p>
+                        <p className="text">Fort Worth, TX</p>
+                    </div>    
+                    <div className="resume-box-right">
+                        <p className ="paragraph">Provide tier one technical support to over 500 employees through phone and ticket support. Support includes account management, computer setup, software support, hardware setup, and resolving general technical issue. Communicate and collaborate with other teams and departments to resolve tickets, as well as escalate tickets to appropriate teams. Write Knowledge Base articles for various processes used by the team.</p>
+                    </div>
+                </div>
+            <div className="resume-header"></div>   
+            <div className="resume-box">
                 <div className="resume-box-left">
                     <div className="spacing"></div>
                     <p className="position">IT Support Specialist</p>
